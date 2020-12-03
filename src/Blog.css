@@ -1,0 +1,47 @@
+.blog{
+  background-color: burlywood;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter{
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  outline-color: #fbff00;
+  outline-style: none;
+}
+.filter:focus{
+  border-radius: 4px;
+  outline-style: none;
+}
+
+.sortButton{
+  background-color: darkgreen;
+  color: white;
+  border-radius: 5px;
+  outline:none;
+}
+.sortButton:active{
+  background-color: #017e01;
+  color: white;
+  border-radius: 5px;
+  outline:none;
+}
+.sortButton:hover{
+  background-color: #017e01;
+  color: white;
+  border-radius: 10px;
+  outline:none;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0.5em;
+  background-color: rgb(206, 163, 107);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

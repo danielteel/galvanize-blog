@@ -1,0 +1,30 @@
+.post{
+    background-color: rgb(255 207 92);
+    padding: 0.5em;
+    margin: 0.5em;
+    border-width:1px;
+    border-color: saddlebrown;
+    border-style:solid;
+}
+
+h2{
+    margin-block-end: 0.1em;
+    margin-block-start: 0.1em;
+}
+
+h4{
+  margin-block-end: 0.1em;
+  margin-block-start: 0.1em;
+  font-weight: normal;
+}
+
+p{
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    background-color: cornsilk;
+    padding: 0.1em;
+}
+
+.hilightFilter{
+    color: red;
+}
